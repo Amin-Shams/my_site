@@ -43,6 +43,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "django.template.preview.state": "SHOW_EDITOR",
     "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/Lenovo/Desktop/my_site/blog/templates/blog",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -51,6 +52,14 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Lenovo\Desktop\my_site\blog\templates\blog" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Lenovo\Desktop\my_site\blog\templates\blog" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="my_site" type="Python.DjangoServer" factoryName="Django server">
       <module name="my_site" />
@@ -95,7 +104,8 @@
       <option name="presentableId" value="Default" />
       <updated>1724961422832</updated>
       <workItem from="1724961458731" duration="491000" />
-      <workItem from="1725061253133" duration="1620000" />
+      <workItem from="1725061253133" duration="2452000" />
+      <workItem from="1725083226506" duration="927000" />
     </task>
     <servers />
   </component>
