@@ -1,5 +1,7 @@
 {% extends "base.html" %}
 
+{% load static %}
+
 {% block title %}
     My Blog
 {% endblock %}
@@ -10,10 +12,9 @@
 
 {# in progress ...#}
 {% block content %}
-{% include "blog/includes/header.html" %}
     <section id="welcome">
       <header>
-        <img src="" alt="Amin - The Author Of This Blog" />
+        <img src="{% static 'blog/images/Profile-Male-PNG-Clipart.png' %}" alt="Amin - The Author Of This Blog" />
         <h2>MOHAMMAD AMIN'S BLOG</h2>
       </header>
       <p>Hi, I am Amin and I love to blog about tech and the world!</p>
@@ -23,20 +24,11 @@
     <section id="latest-posts">
     <h2>My Latest Thoughts</h2>
     <ul>
-    <li>
-      <article class="post">
-        <a href="">
-          <img src="" alt="Nature At Its Best"
-          />
-          <div class="post__content">
-            <h3>Nature At Its Best</h3>
-            <p>
-              Nature is amazing! The amount of inspiration I get when walking in nature is incredible!
-            </p>
-          </div>
-        </a>
-      </article>
-    </li>
+
+    {% for post in posts %}
+        {% include "blog/includes/post_detail.html" %}
+    {% endfor %}
+
     </ul>
     </section>
 
